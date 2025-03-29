@@ -8,15 +8,40 @@
     --VeryDarkBlue: hsl(216, 12%, 8%);
 }
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;    
     height: 100vh;
-    /* SUBSTITUIR PELO UMA IMAGEM ANIMADA  */
-    background-color: var(--VeryDarkBlue);
     font-family: "Overpass";
+    background-image: url("../img/fundo-bolhas.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: over; /* <- MOTIVO DO ERRO DO MOVIMENTO */
+    
+    overflow: hidden;
+    animation: move 3s infinite alternate linear;
 }
+
+
+/* PAPEL DE PAREDE */
+.background{z
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 
 .form-principal{
     border: none;
@@ -124,5 +149,12 @@ button:hover{
 }
 
 
+@keyframes move {
+    0%{
+        background-position: 0% 0%;
+    }
 
-
+    100%{
+        background-position: 15% 50%;
+    }
+}
