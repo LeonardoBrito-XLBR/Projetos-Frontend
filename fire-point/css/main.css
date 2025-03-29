@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+}
+
+.contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    background-color:  rgb(10, 10, 10);
+}
+
+.contaier button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    height: 62px;
+    width: 62px;   
+
+    border: none;
+
+    padding: 40px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.contaier button img {
+    width: 50px;
+    height: 50px;
+}
+
+.flex-itens {
+    display: flex;
+    background-color:  rgb(10, 10, 10);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 4px;
+}
+
+.flex-itens h2 {
+    margin: 0;
+    color: brown;
+    font-family: "Consolas";
+}
+
+.flex-itens img {
+    height: 250px;
+}
+
+.flex-itens p {
+    margin: 0;
+    font-family: "Consolas";
+    font-size: 80px;
+    color: brown;
+}
