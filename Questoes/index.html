@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!-- META DADOS INTEPRETADOS PELO NAVEGADOR-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questoes sobre HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!--TITULO DAS PAGINAS-->
+    <header>
+        <h1>Quiz sobre HTML e CSS</h1>
+        <p>Responda as perguntas e teste seu conhecimentos em dev Web.</p>
+    </header>
+
+    <!--CONTEUDO PRINCIPAL-->
+    <main>
+        <!--Introdução da pagina-->
+        <section>
+            <h2>Sobre esse artigo ofical do <abbr title="Associação Brasileira de Linguagem de Programação">ABLP</abbr></h2>
+            <p>Esse quiz e pratocionado pela <strong>Receita Federal</strong> uma maneira de testar seus conhecimentos web.</p>
+            <p>Tente se destacar em tudo. Aqui vc vai aprender sobre HTML e CSS sem JS.</p>
+            <p>Cuidado com a IA Sarah, ele esta na sua frente.</p>
+        </section>
+
+        <!--Primeira Pergunta-->
+        <section>
+            <h2>Pergunta 1- Qual a linguagens de Programação para estrutura paginas web</h2>
+            <!--Formularios-->
+            <form>
+                <input type="radio" value="Python" id="op1" name="pergunta1">
+                <label for="op1">Python</label>
+
+                <input type="radio" value="JavaScript" id="op2" name="pergunta1">
+                <label for="op2">JavaScript</label> <br>
+
+                <input type="radio" value="HTML" id="op3" name="pergunta1">
+                <label for="op3"> HTML </label>
+
+                <input type="radio" value ="CSS" id="op4" name="pergunta1">
+                <label for="op4"> CSS </label> <br>
+
+                <input type="radio" value="Java" id="op5" name="pergunta1">
+                <label for="op5">Java</label>
+
+                <input type="radio" value="Ruby" id="op6" name="pergunta1">
+                <label for="op6">Ruby</label>
+            
+            </form>
+        </section>
+
+        <!--Segunda Pergunta-->
+        <section>
+            <h2>Pergunta 2- Na URL (https:www.youtube.com) o <u>youtube.com</u> é um ____?</h2>
+            <form >
+                <input type="text" id="pg2" name="pergunta2" placeholder="Digite sua resposta aqui">
+            </form>
+        </section>
+
+        <!--Terceira Pergunta-->
+        <section>
+            <h2>Pergunta 3- Digite a sua senha mais segura!</h2>
+            <form>
+                <input type="password" id="pg3" name="pergunta3" placeholder="Digite sua senha aqui">
+            </form>
+        </section>
+
+        <!--Quarta Pergunta-->
+        <section>
+            <h2>Pergunta 4- Em que ano o HTML lançou sua primeira versão</h2>
+            <form>
+                <input type="date" name="pergunta4" id="pg4">
+            </form>
+        </section>
+
+        <!--Quinta Pergunta-->
+        <section>
+            <h2>Pergunta 5- Qual dessas tecnologias são consideradas linguagens de Programação</h2>
+            <form>
+                <input type="checkbox" id="pg5op1" value="JavaScript" name="pergunta5">
+                <label form="pg5op1">JavaScript</label>
+                <input type="checkbox" id="pg5op2" value="MongoDB" name="pergunta5">
+                <label form="pg5op2">MongoDB</label>
+                <input type="checkbox" id="pg5op3" value="CSS" name="pergunta5">
+                <label form="pg5op3">CSS</label>
+                <input type="checkbox" id="pg5op4" value="C++" name="pergunta5">
+                <label form="pg5op4">C++</label>
+                <input type="checkbox" id="pg5op5" value="ROST" name="pergunta5">
+                <label form="pg5op5">ROST</label>
+            </form>
+        </section>
+
+        <!-- Sexta Pergunta -->
+         <section>
+            <h2>Pergunta 6- Faça um upload de um arquivo contendo o codigo HTML</h2>
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+         </section>
+
+         <!-- Setima Pergunta-->
+         <section>
+            <h2>Pergunta 7- Selecione o atributo do input que define seu tipo</h2>
+            <form >
+                <select name="pergunta7" id="pg7">
+                    <option value="id">id</option>
+                    <option value="placeholder">placeholder</option>
+                    <option value="type">type</option>
+                </select>
+
+            </form>
+         </section>
+
+         <!-- Oitava Pergunta-->
+          <section>
+            <h2>Qual linguagem de Programação é essa?</h2>
+            <figure>
+                <img src="image.png" alt="Essa imagem representa o JS com fundo amarelo"><br>
+                <figcaption>Figura1 - Linguagem de Programação</figcaption>
+            </figure>
+            <input type="text" id="pergunta8" name="pergunta8" placeholder="Digite o nome dessa linguagens">
+          </section>
+
+          <!-- TABELA DE PONTUACAO-->
+           <section>
+            <h2>Tabela de Pontucao</h2>
+            <table border="6">
+                <thead>
+                    <tr>
+                        <th>Potuacao</th>
+                        <th>Descricao</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Nao desista, o erro leva a perfeicao</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Estude mais, vc vai ficar bom</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Wow vc esta indo bem</td>
+                    </tr>
+                    <tr>
+                        <td>7-8</td>
+                        <td>Nossa sr Sabe Tudo, meus Parabens</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Lembre-se a praticando dia a dia vc vai ficar bom</td>
+                    </tr>
+                </tfoot>
+            </table>
+           </section>
+
+           <!-- Listas das Respotas-->
+           <section>
+            <h2>Verifique o gabarito das questoes</h2>
+            <details> 
+                <summary>Click aqui para visualizar</summary>
+                <ol type="1">
+                    <li>HTML</li>
+                    <li>Dominio</li>
+                    <li>Dedwse2323@#@#@%#$#</li>
+                    <li>1991</li>
+                    <li>JavaScript, C+, ROST</li>
+                    <li>Aquivo.html</li>
+                    <li>type</li>
+                    <li>JavaScript</li>
+                </ol>
+
+            </details>
+           </section>
+
+           <!-- Formulario de Feedback-->
+            <section>
+                <h2>Fale o que vc achou do nosso questionario</h2> 
+                <form action="https://formspree.io/f/xoveyrde" method="post"> 
+                    <fieldset>
+                        <legend>Informacoes de Contatos </legend>
+                        <label for="name">Digite o seu nome</label>
+                        <input type="text" id="name" name="name">
+                        <br>
+                        <label for="email">Digite o seu email</label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <label for="comentarios">Diga o que achou do nosso site</label><br>
+                        <textarea name="comentarios" id="comentarios" rows="10" cols="60" placeholder="Digite seus comentarios"></textarea><br>
+                        <button onclick="alert('Feedback Enviado com sucesso')">Enviar Formulario</button>
+                    </fieldset>
+
+                </form>
+            </section>
+        </main>
+
+    <!--RODAPE DO SITE-->
+    <footer>
+        <p class="paragrafo-footer">&copy Quiz da <abrr title="Associação Brasileira Linguagem de Programação">ABLP</abrr> Todos os Direitos reservados para uso! </p>
+
+        <p>Vamos conhecer nossos praticanador: <a href="umn.html" target="_blank">Clique aqui</a></p>
+    </footer>
+</body>
+</html>

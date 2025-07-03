@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(254, 240, 222);
+    color:rgb(43, 164, 16);
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    padding: 2rem;
+    background-color: rgb(4, 19, 67);
+    text-align: center;
+
+    color: rgb(254, 240, 222);
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+
+}
+
+h2 {
+    color: rgb(4, 19, 67);
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: rgb(43, 164, 16);
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 3px solid rgb(43, 164, 16);
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: rgba(1, 20, 82, 0.415);
+}
+
+
+select{
+    cursor: pointer;
+    background-color: rgb(116, 232, 90);
+    color: rgba(1, 20, 82, 0.415);
+    border-radius: 3px;
+    border: none;
+    outline: none;
+
+    height: 20px;
+}
+
+
+img{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(157, 234, 139);
+    padding: 1rem;    
+    color: rgb(4, 19, 67);
+}
+
+
+td{
+    color: rgb(4, 19, 67);
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td{
+     background-color: rgb(157, 234, 139);
+}
+
+
+details{
+    background-color: rgb(157, 234, 139);
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+summary{
+    color: rgb(4, 19, 67);
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+
+}
+
+
+ol li{
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid rgb(4, 19, 67);
+    padding: 2rem;
+    border-radius: 3px;
+    border-width: 5px;
+    
+    font-size: 20px;
+}
+
+
+
+legend {
+    color: rgb(4, 19, 67);
+    padding: 0 0.5rem ;
+}
+
+textarea {
+    outline: none;
+    border: 2px solid rgb(4, 19, 67);
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+button {
+   border: none; 
+   padding: 0.8rem;
+   border-radius: 3px;
+   background-color: rgb(4, 19, 67);
+   color: rgb(254, 240, 222);
+   cursor: pointer;
+}
+
+footer {
+    background-color: rgb(4, 19, 67);
+    padding: 2rem;
+    text-align: center;
+}
+
+footer{
+   color: rgb(254, 240, 222);
+}
+
+
+footer a {
+    color: rgb(43, 164, 16);
+}
+
+

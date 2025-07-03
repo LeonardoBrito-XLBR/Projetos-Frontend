@@ -26,18 +26,22 @@ body{
     background-size: over; /* <- MOTIVO DO ERRO DO MOVIMENTO */
     
     overflow: hidden;
-    animation: move 3s infinite alternate linear;
+    animation: move 7s infinite alternate linear;
+
+    
 }
 
 
 /* PAPEL DE PAREDE */
-.background{z
-    background-color: rgba(0, 0, 0, 0.719);
+.background{
+    background-color: rgba(0, 0, 0, 0.765);
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 
 }
 
